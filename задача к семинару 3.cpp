@@ -5,7 +5,7 @@ using namespace std;
 int main()
 
 {
-    int a,c;
+    int a;
     int summ = 0;
     int max = 0;
     int min=1000000;
@@ -14,8 +14,6 @@ int main()
     cout << "Write the scale of your massive:";
     cin >> a;
     int* array = new int[a];
-    int* newArray = new int[a];
-    int j = 0;
     for (int i = 0; i < a; i++) {
         cout << "write the " << i + 1 << " number:" << endl;
         cin >> array[i];
@@ -50,32 +48,14 @@ int main()
         array[0] = d;
     }
 
-
-
     
     cout << "Your new massive:";
     for (int i = 0; i < a; i++) {
         cout << array[i];
 
-    }
-    
-
-          
-
-   
-
-
-   // for (int i = 0; i < j; i++) {
-     //   if (newArray[i] > max)
-       //     max = newArray[i];
-
-    //}
-   // cout << "The biggest element from chetnue:" << max;
-
-
-
-
+    }          
     return 0;
 
 
 }
+
