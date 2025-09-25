@@ -1,12 +1,9 @@
 ﻿#include <iostream>
-#include<vector>
-#include <cmath>
 using namespace std;
 int main()
 
 {
     int a;
-    int c;
     int sum = 0;
     int max = 0;
     int min = 1000000;
@@ -15,8 +12,6 @@ int main()
     cout << "Write the scale of your massive:";
     cin >> a;
     int* array = new int[a];
-    int* newArray = new int[a];
-    int j = 0;
     for (int i = 0; i < a; i++) {
         cout << "write the " << i + 1 << " number:" << endl;
         cin >> array[i];
@@ -65,3 +60,4 @@ int main()
 
 
 }
+
